@@ -22,7 +22,6 @@ let apiFacade = () => {
         }
       });
   };
-  
 
   const login = (user, password, setLoggedIn, setErrorMessage) => {
     const options = makeOptions("POST", true, {
